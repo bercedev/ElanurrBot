@@ -1,0 +1,89 @@
+
+{
+  "name": "Marie-2.0 Türkçe",
+  "description": "Telegram'ın en sinsi grup yöneticisi. Modüler Telegram grup yönetimi botu!",
+  "keywords": [
+    "telegram",
+    "best",
+    "group",
+    "yönetim",
+    "yönetici",
+    "manager",
+    "3"
+  ],
+  "repository": "https://github.com/must4f/ElanurrBot",
+  "env": {
+    "ENV": {
+      "description": "Bunu ANYTHING olarak ayarlamak, ortam değişkenlerini etkinleştirir",
+      "value": "ANYTHING"
+    },
+    "TOKEN": {
+      "description": "Bot tokeninizi girin!",
+      "value": ""
+    },
+    "OWNER_ID": {
+      "description": "Botun sahibine ait id",
+      "value": "1097068650"
+    },
+    "OWNER_USERNAME": {
+      "description": "Kullanıcı adın?",
+      "value": "odunum"
+    },
+    "WEBHOOK": {
+      "description": "Bunu ANYTHING olarak ayarlamak, env modu mesajındayken web kancalarını etkinleştirir (Tavsiye:elleme)",
+      "value": "ANYTHING"
+    },
+    "URL": {
+      "description": "Şuna benzer Heroku Uygulama URL'si :https://<appname>.herokuapp.com/",
+      "value": ""
+    },
+    "MESSAGE_DUMP": {
+      "description": "optional: insanların mesajlarını silmelerini önlemek için, yanıtladığınız kayıtlı mesajların saklandığı bir sohbet",
+      "value": "-1007777777777"
+    },
+    "SUDO_USERS": {
+      "description": "Sudo kullanıcıları olarak kabul edilmesi gereken, boşlukla ayrılmış user_ids listesi",
+      "value": "254318997 683538773 570400686 466337795"
+    },
+    "SUPPORT_USERS": {
+      "description": "Destek kullanıcıları olarak kabul edilmesi gereken, boşlukla ayrılmış user_ids listesi (gban / ungban olabilir, başka bir şey olamaz)",
+      "value": "254318997 683538773 570400686 466337795"
+    },
+    "WHITELIST_USERS": {
+      "description": "Wlist (bilmiyorsan elleme)",
+      "value": "254318997 683538773 570400686 466337795"
+    },
+    "DONATION_LINK": {
+      "description": "İsteğe bağlı: bağış almak istediğiniz yere bağlantı.",
+      "value": "https://www.paypal.me/Your_id_here"
+    },
+    "PORT": {
+      "description": "Web kancalarınız için kullanılacak bağlantı noktası",
+      "value": "8443"
+    },
+    "DEL_CMDS": {
+      "description": "Bu komutu kullanma hakkına sahip olmayan kullanıcılardan komutların silinip silinmeyeceği",
+      "value": "True"
+    },
+    "STRICT_GBAN": {
+      "description": "Yeni grupların yanı sıra eski gruplarda da gbans uygulayın. Yasaklı bir kullanıcı konuştuğunda, yasaklanacak.",
+      "value": "True"
+    },
+    "ALLOW_EXCL": {
+      "description": "Ünlem işareti kullanımına izin verilip verilmeyeceği! / yanı sıra komutlar için.",
+      "value": "True"
+    },
+    "BAN_STICKER": {
+      "description": "İnsanları yasaklarken hangi çıkartmanın kullanılacağı. File_id almak için bir Json Botu kullanın",
+      "value": "CAACAgEAAxkBAAEHDIFfxVtlh39bAAHKRT3UrP0Pk_ephcQAAtMAAx490EVvIb5FqMzUWx4E"
+    }
+  },
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "10"
+      }
+    }
+  ]
+}
