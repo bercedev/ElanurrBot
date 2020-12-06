@@ -18,18 +18,18 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-**Merhaba {}, Benim adım Elanur! Beni nasıl kullanacağınıza dair sorularınız varsa lütfen /help komutunu gönderin** ... 
+**Merhaba {}, Benim adım Elanur!** ... 
 
-Ben bir grup yöneticisi botuyum ve [bu mükemmel kişi](tg://user?id=1097068650) tarafından yapıldım..
+👼🏻Ben bir grup yöneticisi botuyum ve [bu mükemmel kişi](tg://user?id=1097068650) tarafından yapıldım..
 
-Gelecekteki güncellemelerim vb - @ElanurBlog
+📣Gelecekteki güncellemelerim vb - @ElanurBlog
 
-İşte benim [Kaynak kodum](https://heroku.com/deploy?template=https://github.com/Must4f/ElanurrBot),
-Bu linke girerek klonumu oluşturabilirsin!
+💻İşte benim [Kaynak kodum](https://heroku.com/deploy?template=https://github.com/Must4f/ElanurrBot),
+Bu linke girerek klonumu oluşturabilirsin! Fazla kurcalama!
 
-Daha fazla komut için tıklayın: /help...
+ℹ️Daha fazla komut ve nasıl kullanacağını öğrenmek için tıklayın: /help...
 
-**Kaynakta YAPTIĞINIZ tüm değişikliklerin, lisansa göre github'da olması gerektiğini unutmayın..**
+[Bot Sahibi🛸](buttonurl://tg://user?id=1097068650)
 
 """
 
