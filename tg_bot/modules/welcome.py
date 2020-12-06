@@ -109,7 +109,7 @@ def del_joined(bot: Bot, update: Update, args: List[str]) -> str:
                                                                           mention_html(user.id, user.first_name))
     else:
         # idek what you're writing, say yes or no
-        update.effective_message.reply_text("Yalnızca " /yes , /no" veya " /on , /off" ı anlıyorum!")
+        update.effective_message.reply_text("Yalnızca yes , no veya on , off ı anlıyorum!")
         return ""
 
 
