@@ -24,7 +24,7 @@ Ben bir grup yöneticisi botuyum ve [bu mükemmel kişi](tg://user?id=1097068650
 
 Gelecekteki güncellemelerim vb - @ElanurBlog
 
-İşte benim [Kaynak kodum](https://heroku.com/deploy?template=https://github.com/Must4f/Elanurrbot),
+İşte benim [Kaynak kodum](https://heroku.com/deploy?template=https://github.com/Must4f/ElanurrBot),
 Bu linke girerek klonumu oluşturabilirsin!
 
 Daha fazla komut için tıklayın: /help...
