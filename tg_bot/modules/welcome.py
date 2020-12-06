@@ -462,7 +462,7 @@ WELC_HELP_TXT = "Grubunuzun hoşgeldin / hoşçakal mesajları birçok şekilde 
                 "Karşılama mesajları ayrıca işaretlemeyi destekler, böylece herhangi bir öğeyi kalın / italik / kod / bağlantı yapabilirsiniz. " \
                 "Düğmeler de desteklenir, böylece hoş geldiniz konuşmalarınızın harika görünmesini güzel bir girişle yapabilirsiniz. " \
                 "buttons.\n" \
-                "Kurallarınıza bağlanan bir düğme oluşturmak için şunu kullanın: "[Kurallar](buttonurl://t.me/{}?start=group_id)`. " \
+                "Kurallarınıza bağlanan bir düğme oluşturmak için şunu kullanın: `[Rules](buttonurl://t.me/{}?start=group_id)`. " \
                 "Basitçe değiştirin `group_id` with your group's id, which can be obtained via /id, and you're good to " \
                 "go. Note that group ids are usually preceded by a `-` sign; this is required, so please don't " \
                 "remove it.\n" \
