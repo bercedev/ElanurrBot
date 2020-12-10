@@ -1,6 +1,7 @@
 import importlib
 import re
 import tg_bot.modules.sql.welcome_sql as sql
+from tg_bot.modules.helper_funcs.misc import build_keyboard, revert_buttons
 from typing import Optional, List
 
 from telegram import Message, Chat, Update, Bot, User
