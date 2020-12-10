@@ -1,5 +1,6 @@
 import importlib
 import re
+import tg_bot.modules.sql.welcome_sql as sql
 from typing import Optional, List
 
 from telegram import Message, Chat, Update, Bot, User
@@ -13,6 +14,7 @@ from tg_bot import dispatcher, updater, TOKEN, WEBHOOK, OWNER_ID, DONATION_LINK,
     ALLOW_EXCL
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
+
 from tg_bot.modules import ALL_MODULES
 from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
@@ -29,7 +31,7 @@ Bu linke girerek klonumu oluşturabilirsin! Fazla kurcalama!
 
 ℹ️Daha fazla komut ve nasıl kullanacağını öğrenmek için tıklayın: /help...
 
-[Bot Sahibi🛸](buttonurl://tg://user?id=1097068650)
+[Bot Sahibi🛸](buttonurl://t.me/odunum)
 
 """
 
