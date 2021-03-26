@@ -11,7 +11,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/must4f/ElanurrBot",
+  "repository": "https://github.com/mutlcc/ElanurrBot",
   "env": {
     "ENV": {
       "description": "Bunu ANYTHING olarak ayarlamak, ortam değişkenlerini etkinleştirir",
