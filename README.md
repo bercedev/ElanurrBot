@@ -17,7 +17,7 @@ Alternatif olarak, [beni telegramda bulun] (https://t.me/odunum)! (Tüm destek s
 
 ## Doğrudan Heroku'ya dağıtmak için aşağıdaki Heroku Deploy düğmesine de dokunabilirsiniz!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/mutlcc/ElanurrBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/must4f/ElanurrBot)
 
 ## Botu başlatmak.
 
